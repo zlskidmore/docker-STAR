@@ -2,7 +2,7 @@
 FROM ubuntu:18.04
 
 # set the environment variables
-ENV star_version 2.7.1a
+ENV star_version 2.7.2b
 
 # run update and install necessary tools
 RUN apt-get update -y && apt-get install -y \
